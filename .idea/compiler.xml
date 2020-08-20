@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xiaobai-ware" />
+        <module name="xiaobai-member" />
+        <module name="xiaobai-common" />
+        <module name="xiaobai-coupon" />
+        <module name="xiaobai-gateway" />
+        <module name="xiaobai-product" />
+        <module name="xiaobai-order" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xiaobai-coupon" options="-parameters" />
+      <module name="xiaobai-gateway" options="-parameters" />
+      <module name="xiaobai-member" options="-parameters" />
+      <module name="xiaobai-order" options="-parameters" />
+      <module name="xiaobai-product" options="-parameters" />
+      <module name="xiaobai-ware" options="-parameters" />
+    </option>
+  </component>
+</project>
